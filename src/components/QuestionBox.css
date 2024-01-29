@@ -1,0 +1,38 @@
+/* ... Your existing styles ... */
+
+.question-box {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff; /* White background color for content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow effect */
+    margin: 20px;
+    position: relative; /* Added for positioning highlight buttons */
+  }
+  
+  .highlight-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .question-box.highlighted {
+    color: red; /* Change to desired highlighted color */
+  }
+  
+  .question-box.dark-mode {
+    background-color: #2b2b2b; /* Dark background color in dark mode */
+    color: #fff; /* Text color in dark mode */
+  }
+  
+  .question-box.light-mode {
+    background-color: #fff; /* White background color in light mode */
+    color: #000; /* Text color in light mode */
+  }
+  
+  .option {
+    /* ... Your existing styles ... */
+  }
+  
+  /* Add other styles as needed */
+  
